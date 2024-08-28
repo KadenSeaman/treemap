@@ -1,0 +1,41 @@
+#main{
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#link-container{
+  margin-top: 50px;
+}
+p{
+  display: inline;
+}
+.tile-text{
+  font-size: 10px;
+}
+.tile-text:hover{
+  cursor: default;
+}
+
+#tooltip{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 10;
+  background-color: tan;
+  padding: 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+#svg-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
